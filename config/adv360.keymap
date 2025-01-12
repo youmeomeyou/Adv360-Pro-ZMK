@@ -43,6 +43,20 @@
     };
   };
 
+  /* 마우스 동작 정의 */
+  pointing_scroll: pointing_scroll {
+      compatible = "zmk,behavior-scroll";
+      params = <1>;
+  };
+
+  pointing_move: pointing_move {
+      compatible = "zmk,behavior-move";
+      params = <1>;
+  };
+
+
+
+
     keymap {
         compatible = "zmk,keymap";
 
