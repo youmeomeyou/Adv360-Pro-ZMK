@@ -1,4 +1,4 @@
-&pin-controller {
+&pinctrl {
     spi3_default {
         #binding-cells = <0>;
     };
