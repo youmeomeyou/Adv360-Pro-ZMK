@@ -12,6 +12,13 @@
  * edit it directly.
  */
 
+/* 마우스 기본 속도 및 스크롤 속도 설정 */
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // 커서 이동 속도 기본값 (기본: 600)
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // 스크롤 속도 기본값 (기본: 10)
+
+/* 헤더 파일 포함 */
+#include <dt-bindings/zmk/pointing.h>
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
