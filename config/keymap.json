@@ -35,11 +35,12 @@
         "&none",        "&none",        "&none",        "&none",   "&macro_ver",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+        "&none", "&none", "&none", "&pointing_scroll -1 0", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
+        "&none", "&none", "&pointing_button BUTTON_MIDDLE", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
+        "&none", "&pointing_speed_decrease", "&pointing_speed_increase", "&pointing_button BUTTON_RIGHT", "&pointing_button BUTTON_LEFT", "&pointing_button BUTTON_MIDDLE", "&none", "&none", "&none", "&none", "&none", "&none", "&none",
+        "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&pointing_move 0 -10", "&pointing_move -10 0", "&pointing_move 10 0", "&pointing_move 0 10", "&none", "&none", "&none",
+        "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&none", "&pointing_scroll 1 0", "&none", "&none", "&none", "&none", "&none", "&none"
     ]
+
   ]
 }
