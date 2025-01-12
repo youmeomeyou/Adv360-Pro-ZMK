@@ -43,17 +43,29 @@
     };
   };
 
-  /* 마우스 동작 정의 */
-  pointing_scroll: pointing_scroll {
-      compatible = "zmk,behavior-scroll";
-      params = <1>;
-  };
+    /* 마우스 동작 정의 */
+    pointing_scroll: pointing_scroll {
+        compatible = "zmk,behavior-scroll";
+        params = <1>;
+    };
+  
+    pointing_move: pointing_move {
+        compatible = "zmk,behavior-move";
+        params = <1>;
+    };
+  
+    pointing_button: pointing_button {
+        compatible = "zmk,behavior-button";
+        params = <1>;
+    };
+  
+    pointing_speed_decrease: pointing_speed_decrease {
+        compatible = "zmk,behavior-speed-decrease";
+    };
 
-  pointing_move: pointing_move {
-      compatible = "zmk,behavior-move";
-      params = <1>;
-  };
-
+    pointing_speed_increase: pointing_speed_increase {
+        compatible = "zmk,behavior-speed-increase";
+    };
 
 
 
