@@ -46,26 +46,33 @@
     /* 마우스 동작 정의 */
     pointing_scroll: pointing_scroll {
         compatible = "zmk,behavior-scroll";
-        params = <1>;
+        #binding-cells = <0>;
+        params = <ZMK_POINTING_DEFAULT_SCRL_VAL>;
     };
-  
+
     pointing_move: pointing_move {
         compatible = "zmk,behavior-move";
-        params = <1>;
+        #binding-cells = <0>;
+        params = <ZMK_POINTING_DEFAULT_MOVE_VAL>;
     };
+
   
     pointing_button: pointing_button {
         compatible = "zmk,behavior-button";
+        #binding-cells = <0>;
         params = <1>;
     };
-  
+
     pointing_speed_decrease: pointing_speed_decrease {
         compatible = "zmk,behavior-speed-decrease";
+        #binding-cells = <0>;
     };
-
+    
     pointing_speed_increase: pointing_speed_increase {
         compatible = "zmk,behavior-speed-increase";
+        #binding-cells = <0>;
     };
+
 
 
 
