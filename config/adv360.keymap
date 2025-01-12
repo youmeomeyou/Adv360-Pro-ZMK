@@ -90,12 +90,13 @@
         layer_Mouse {
             bindings = <
   &none       &none       &none         &pointing_scroll SCRL_DOWN   &none        &none          &none                                     &none    &none       &none       &none    &none    &none    &none
-  &none       &none       &pointing_button BUTTON_MIDDLE  &none  &none       &none          &none                                     &none    &none       &none       &none    &none    &none    &none
-  &none       &pointing_speed_decrease   &pointing_speed_increase   &pointing_button BUTTON_RIGHT  &pointing_button BUTTON_LEFT  &pointing_button BUTTON_MIDDLE  &none    &none    &none          &none    &none    &none    &none
+  &none       &none       &pointing_button MB3  &none  &none       &none          &none                                     &none    &none       &none       &none    &none    &none    &none
+  &none       &pointing_speed_decrease   &pointing_speed_increase   &pointing_button MB2  &pointing_button MB1  &pointing_button MB3  &none    &none    &none          &none    &none    &none    &none
   &none       &none       &none         &none         &none        &none                            &none                              &none                              &pointing_move MOVE_UP  &pointing_move MOVE_LEFT  &pointing_move MOVE_RIGHT  &pointing_move MOVE_DOWN  &none    &none    &none
   &none       &none       &none         &none         &none        &none       &none         &none                  &none         &pointing_scroll SCRL_UP   &none       &none    &none    &none    &none    &none
             >;
         };
+
 
 
 
