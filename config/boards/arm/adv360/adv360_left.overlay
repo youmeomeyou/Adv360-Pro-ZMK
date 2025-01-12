@@ -1,0 +1,5 @@
+&pin-controller {
+    spi3_default {
+        #binding-cells = <0>;
+    };
+};
