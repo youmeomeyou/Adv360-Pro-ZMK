@@ -17,7 +17,8 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // 스크롤 속도 기본값 (기본: 10)
 
 /* 헤더 파일 포함 */
-#include <dt-bindings/zmk/pointing.h>
+#include "app/include/dt-bindings/zmk/pointing.h"
+
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
